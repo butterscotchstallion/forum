@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def index(request):
+def board_list(request):
     return render(request, 'boards/index.html')
